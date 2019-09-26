@@ -73,24 +73,24 @@
     }
   }
 
-  // profile logo
-  &-branding {
-    background: $primary-color;
-    transform: translate3d(0, 100%, 0);
-    @include easeOut;
+  //profile logo
+  // &-branding {
+  //   background: $primary-color;
+  //   transform: translate3d(0, 100%, 0);
+  //   @include easeOut;
 
-    &.show {
-      transform: translate3d(0, 0, 0);
-    }
+  //   &.show {
+  //     transform: translate3d(0, 0, 0);
+  //   }
 
-    .portrait {
-      width: 250px;
-      height: 250px;
-      background: url("../img/portrait.jpg");
-      border-radius: 50%;
-      border: solid 3px $secondary-color;
-    }
-  }
+  //   .portrait {
+  //     width: 250px;
+  //     height: 250px;
+  //     // background: url("../img/portrait.jpg");
+  //     // border-radius: 50%;
+  //     // border: solid 3px $secondary-color;
+  //   }
+  // }
 
   .nav-item {
     transform: translate3d(600px, 0, 0);
